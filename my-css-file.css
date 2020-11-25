@@ -40,10 +40,24 @@ header{
 
 ul{
   display: flex;
+  list-style-type: none;
 }
 
 li a{
   padding: 0 1.2em;
+
+}
+
+h1{
+  font-size: 4.7em;
+  letter-spacing: -0.1px;
+  color: #0a2540;
+}
+
+h2{
+  font-size: 4em;
+  letter-spacing: -0.1px;
+  color: #96f;
 }
 
 h3{
@@ -51,15 +65,17 @@ h3{
   padding-bottom: 3em;
 }
 
-h1{
-font-size: 4.7em;
-letter-spacing: -0.1px;
-color: #0a2540;
-}
-
 p{
   letter-spacing: .2px;
   color: #425466;
   font-size: 1em;
   line-height: 3em;
+}
+
+
+/* Box style section*/
+
+.box-wrapper{
+  display: flex;
+  justify-content: space-around;
 }
