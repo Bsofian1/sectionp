@@ -16,6 +16,7 @@ a{
   text-decoration: none;
   color: #96f;
   padding: 3px 0px 6px;
+  display: flex;
 }
 s
 ul{
@@ -45,7 +46,6 @@ ul{
 
 li a{
   padding: 0 1.2em;
-
 }
 
 h1{
@@ -77,5 +77,32 @@ p{
 
 .box-wrapper{
   display: flex;
-  justify-content: space-around;
+  position: relative;
+  margin: 3em 0em;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px #999999;
+}
+
+.box-wrapper p{
+  font-size: 35px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.box-wrapper img{
+  position: absolute;
+}
+
+.pci-dss{
+  background: #16cbe1;
+}
+
+.arrow-left{
+  width: 20px;
+  margin-bottom: .5em;
+  transform: rotateZ(-90deg);
+  color: #96f;
+  display: flex;
 }
